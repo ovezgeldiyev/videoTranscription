@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css" />
+  <title>Home</title>
+</head>
+
+<body>
+  <!-- header start
+    =========================================== -->
+  <header class="header" id="header">
+    <div class="auto__container">
+      <div class="header__inner">
+        <a href="#home" class="header__inner-logo links">
+          <img src="./images/logo.png" alt="" />
+        </a>
+        <nav class="nav" id="menu">
+          <ul class="nav__inner">
+            <li>
+              <a href="#features" class="links">
+                Features
+              </a>
+            </li>
+            <li>
+              <a href="#pricing" class="links">
+                Pricing
+              </a>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="tabBtn" data-tab="#tab-1">
+                More
+              </a>
+              <ul class="dropdown__menu tabEvent" id="tab-1">
+                <li>
+                  <a href="#">
+                    Partners
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    About Us
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Contact
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <div class="header__inner-buttons">
+              <a href="#" class="header__inner-link">
+                Login
+              </a>
+              <a href="#" class="button">
+                Sign Up
+              </a>
+            </div>
+          </ul>
+        </nav>
+        <div class="header__inner-buttons">
+          <a href="#" class="header__inner-link">
+            Login
+          </a>
+          <a href="#" class="button">
+            Sign Up
+          </a>
+          <div class="burger" id="menuBtn">
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- header end
+    =========================================== -->
+  <main class="main">
+    <!-- upload start
+    =========================================== -->
+    <div class="anchor" id="home"></div>
+    <section class="upload">
+      <div class="auto__container">
+        <div class="upload__inner">
+          <div class="uploadInput">
+            <input type="file">
+            <div class="uploadInput__link">
+              <label for="videoLink">
+                Insert Link Here
+              </label>
+              <input type="text" id="videoLink" value="https://">
+            </div>
+            <div class="uploadInput__content">
+              <span>
+                <img src="./images/icons/upload.svg" alt="">
+              </span>
+              <p>
+                <b>
+                  Select a file or drag and drop here
+                </b>
+              </p>
+              <p>
+                JPG, PNG or PDF, file size no more than 10MB
+              </p>
+              <button class="button">
+                Select file
+              </button>
+            </div>
+          </div>
+          <div class="uploadOutput">
+            <div class="uploadOutput__inner">
+              <label for="transcript">
+                Transcript
+              </label>
+              <textarea id="transcript">Transcript here
+              </textarea>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- upload end
+    =========================================== -->
+    <!-- intro start
+    =========================================== -->
+    <section class="intro">
+      <div class="auto__container">
+        <div class="intro__inner">
+          <div class="intro__inner-content">
+            <h1>
+              Video Transcriptions Powered by AI
+            </h1>
+            <p>
+              <b>
+                Exclusive offer: Get 10% off on your first month!
+              </b>
+            </p>
+
+            <a href="#" class="button primary">
+              Try it out
+              <span>
+                <img src="./images/icons/arrow-right.svg" alt="">
+              </span>
+            </a>
+            <h6>
+              Best Price guarantee
+            </h6>
+          </div>
+          <div class="intro__inner-image">
+            <img src="./images/intro.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- intro end
+    =========================================== -->
+    <!-- feature start
+    =========================================== -->
+    <div class="anchor" id="features"></div>
+    <section class="feature">
+      <div class="auto__container">
+        <div class="feature__inner">
+          <div class="feature__inner-title">
+            <h2>
+              Why choose our transcription services
+            </h2>
+          </div>
+          <div class="feature__inner-row">
+            <div class="feature__inner-image">
+              <img src="./images/feature/1.png" alt="">
+            </div>
+            <div class="feature__inner-content">
+              <h3>
+                Fast and Accurate Transcriptions
+              </h3>
+              <p>
+                Powered by advanced models from OpenAI and Hugging Face, our service ensures quick and precise
+                transcriptions. With our global team, get your transcriptions anytime, from anywhere.
+              </p>
+              <div class="feature__inner-logo sm">
+                <img src="./images/openAI.png" alt="">
+              </div>
+              <div class="feature__inner-logo">
+                <img src="./images/huggingFace.png" alt="">
+              </div>
+              <a href="#" class="button primary">
+                Upload your file
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- feature end
+    =========================================== -->
+    <!-- feature start
+    =========================================== -->
+    <section class="feature">
+      <div class="auto__container">
+        <div class="feature__inner">
+          <div class="feature__inner-row">
+            <div class="feature__inner-content">
+              <h3>
+                Secure and Confidential
+              </h3>
+              <p>
+                Your data's privacy is our top priority. Our state-of-the-art encryption ensures your files and
+                transcriptions remain confidential.
+              </p>
+              <a href="#" class="button primary">
+                Upload your file
+              </a>
+            </div>
+            <div class="feature__inner-image">
+              <img src="./images/feature/2.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- feature end
+    =========================================== -->
+    <!-- feature start
+    =========================================== -->
+    <section class="feature">
+      <div class="auto__container">
+        <div class="feature__inner">
+          <div class="feature__inner-row">
+            <div class="feature__inner-image">
+              <img src="./images/feature/3.png" alt="">
+            </div>
+            <div class="feature__inner-content">
+              <h3>
+                Cheapest rates guaranteed
+              </h3>
+              <p>
+                We use the best models to improve efficiency, providing our clients with the best rates
+              </p>
+              <a href="#" class="button primary">
+                Upload a mp4 link
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- feature end
+    =========================================== -->
+    <!-- steps start
+    =========================================== -->
+    <section class="steps">
+      <div class="auto__container">
+        <div class="steps__inner">
+          <div class="steps__inner-row">
+            <div class="steps__inner-shape">
+              <img src="./images/icons/curve.svg" alt="">
+            </div>
+            <div class="stepsItem">
+              <span>
+                1
+              </span>
+              <h4>
+                Upload audio or video
+              </h4>
+              <div class="stepsItem__image">
+                <img src="./images/steps/1.png" alt="">
+              </div>
+            </div>
+            <div class="stepsItem">
+              <span>
+                2
+              </span>
+              <h4>
+                Get your transcript in seconds
+              </h4>
+              <div class="stepsItem__image">
+                <img src="./images/steps/2.png" alt="">
+              </div>
+            </div>
+            <div class="stepsItem">
+              <span>
+                3
+              </span>
+              <h4>
+                Export to popular formats
+              </h4>
+              <div class="stepsItem__image plane">
+                <img src="./images/steps/3.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- steps end
+    =========================================== -->
+    <!-- pricing start
+    =========================================== -->
+    <div class="anchor" id="pricing"></div>
+    <section class="pricing">
+      <div class="auto__container">
+        <div class="pricing__inner">
+          <div class="pricing__inner-title">
+            <h2>
+              Pricing
+            </h2>
+            <p class="big">
+              Get started with 2 free uploads on us, then upgrade to a paid plan if you're happy.
+            </p>
+            <div class="pricing__inner-tab">
+              <label class="check">
+                <b>
+                  Monthly Billing
+                </b>
+                <div class="check__box">
+                  <input type="checkbox" checked>
+                  <span></span>
+                </div>
+                <b>
+                  Annual Billing
+                </b>
+              </label>
+              <p class="benefit">
+                Saves up to 30%
+              </p>
+            </div>
+          </div>
+          <div class="pricing__inner-row slider">
+            <div class="pricingItem">
+              <div class="pricingItem__top sm">
+                <h4 class="sm">
+                  Free
+                </h4>
+                <p class="sm">
+                  Start exploring our cutting edge AI
+                  transcription software.
+                </p>
+                <div class="pricingItem__center">
+                  <h5>
+                    <b>
+                      $0
+                    </b>
+                    <span>
+                      USD /month
+                    </span>
+                  </h5>
+                  <p class="sm hidden">
+                    Billed annually
+                    <span class="benefit">
+                      Saves $100
+                    </span>
+                  </p>
+                  <a href="#" class="button">
+                    Get started free
+                  </a>
+                  <p class="ex">
+                    No credit card required
+                  </p>
+                </div>
+              </div>
+              <div class="pricingItem__foot">
+                <h6>
+                  What's included
+                </h6>
+                <ul>
+                  <li>
+                    Get started with 2 free uploads.
+                  </li>
+                  <li>
+                    30 minutes max transcript length.
+                  </li>
+                  <li>
+                    Transcribe in 90+ languages.
+                  </li>
+                  <li>
+                    Powerful text editor built right into the
+                    app.
+                  </li>
+                  <li>
+                    Secure storage.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="pricingItem">
+              <div class="pricingItem__top">
+                <h4 class="sm">
+                  Pro
+                </h4>
+                <p class="sm">
+                  10,000 minutes of transcription per
+                  month.
+                </p>
+                <div class="pricingItem__center">
+                  <h5>
+                    <b>
+                      $15
+                    </b>
+                    <span>
+                      USD /month
+                    </span>
+                  </h5>
+                  <p class="sm">
+                    Billed annually
+                    <span class="benefit">
+                      Saves $100
+                    </span>
+                  </p>
+                  <a href="#" class="button">
+                    Buy Now
+                  </a>
+                  <p class="ex hidden">
+                    No credit card required
+                  </p>
+                </div>
+              </div>
+              <div class="pricingItem__foot">
+                <h6>
+                  What's included
+                </h6>
+                <ul>
+                  <li>
+                    Everything in Free.
+                  </li>
+                  <li>
+                    Transcribe up to 10,000 minutes of
+                    audio or video per month.
+                  </li>
+                  <li>
+                    No limit on file length.
+                  </li>
+                  <li>
+                    No limit on number of uploads.
+                  </li>
+                  <li>
+                    Export as pdf, docx, txt, or subtitles.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="pricingItem">
+              <div class="pricingItem__top sm">
+                <h4 class="sm">
+                  Business
+                </h4>
+                <p class="sm">
+                  Unlimited transcription for you or your
+                  team.
+                </p>
+                <div class="pricingItem__center">
+                  <h5>
+                    <b>
+                      $29
+                    </b>
+                    <span>
+                      USD /month
+                    </span>
+                  </h5>
+                  <p class="sm">
+                    Billed annually
+                    <span class="benefit">
+                      Saves $300
+                    </span>
+                  </p>
+                  <a href="#" class="button">
+                    Buy Now
+                  </a>
+                  <p class="ex hidden">
+                    No credit card required
+                  </p>
+                </div>
+              </div>
+              <div class="pricingItem__foot">
+                <h6>
+                  What's included
+                </h6>
+                <ul>
+                  <li>
+                    Everything in Pro.
+                  </li>
+                  <li>
+                    Unlimited minutes of transcription.
+                  </li>
+                  <li>
+                    Share and edit transcripts within your
+                    team.
+                  </li>
+                  <li>
+                    Add team members for just $29/month
+                    per account.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- pricing end
+    =========================================== -->
+    <!-- partners start
+    =========================================== -->
+    <section class="partners">
+      <div class="auto__container">
+        <div class="partners__inner">
+          <h2 class="sm">
+            WHERE WE <br>
+            WORKED AT
+          </h2>
+          <div class="partners__inner-row">
+              <div class="partnersLogo">
+                <img src="./images/partners/1.png" alt="">
+              </div>
+              <div class="partnersLogo sm">
+                <img src="./images/partners/2.png" alt="">
+              </div>
+              <div class="partnersLogo">
+                <img src="./images/partners/3.png" alt="">
+              </div>
+              <div class="partnersLogo">
+                <img src="./images/partners/4.png" alt="">
+              </div>
+              <div class="partnersLogo">
+                <img src="./images/partners/5.png" alt="">
+              </div>
+              <div class="partnersLogo">
+                <img src="./images/partners/6.png" alt="">
+              </div>
+              <div class="partnersLogo">
+                <img src="./images/partners/7.png" alt="">
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- partners end
+    =========================================== -->
+    <!-- support start
+    =========================================== -->
+    <section class="support">
+      <div class="auto__container">
+        <div class="support__inner">
+          <div class="supportItem">
+            <div class="supportItem__inner">
+              <span>
+                <img src="./images/icons/support.png" alt="">
+              </span>
+              <h3>
+                24/7 Customer Support
+              </h3>
+              <p>
+                Real-time assistance from our expert team. Whether you need help with uploads, understanding our
+                process, or troubleshooting, we're here to help.
+              </p>
+              <a href="#" class="button primary uniq">
+                Contact Support
+              </a>
+            </div>
+          </div>
+          <div class="supportItem">
+            <div class="supportItem__inner">
+              <span class="sm">
+                <img src="./images/icons/guarantee.png" alt="">
+              </span>
+              <h3>
+                Best Price Guarantee
+              </h3>
+              <p>
+                Our transcription service is not only top-notch but also the most affordable in the market. If you're
+                not satisfied, we'll refund your payment. No questions asked.
+              </p>
+              <a href="#" class="button primary">
+                Get Started Now
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- support end
+    =========================================== -->
+    <!-- footer start
+    =========================================== -->
+    <footer class="footer">
+      <div class="auto__container">
+        <div class="footer__inner">
+          <p>
+            © 2023 ExpressVPN. All rights reserved.
+          </p>
+          <div class="footer__inner-social">
+            <a href="#">
+              <svg>
+                <use xlink:href="#youtube"></use>
+              </svg>
+            </a>
+            <a href="#">
+              <svg>
+                <use xlink:href="#linkedin"></use>
+              </svg>
+            </a>
+            <a href="#">
+              <svg>
+                <use xlink:href="#twitter"></use>
+              </svg>
+            </a>
+            <a href="#">
+              <svg>
+                <use xlink:href="#facebook"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end
+    =========================================== -->
+  </main>
+  <!-- Sprites
+    =========================================== -->
+  <svg style="display: none">
+    <symbol id="youtube" viewBox="0 0 24 24">
+      <g>
+        <path fill-rule="evenodd" clip-rule="evenodd"
+          d="M12.2861 5.00091C13.234 5.00595 14.2969 5.02394 15.3049 5.06147C16.842 5.11869 17.9291 5.20774 18.5436 5.36864C19.5886 5.68417 20.383 6.55823 20.6515 7.71169C20.8918 9.13382 21.0085 10.5765 21 12.0121C21.0048 13.4354 20.8881 14.8562 20.639 16.3188C20.383 17.4106 19.5886 18.2847 18.529 18.6045C17.9432 18.7717 16.8526 18.8695 15.3084 18.9325L14.7562 18.9527C14.1963 18.971 13.6154 18.9836 13.0347 18.9915L12.5208 18.9972H11.4792L10.3853 18.982C9.80685 18.9709 9.23525 18.9547 8.69157 18.9325C7.14741 18.8695 6.05675 18.7717 5.46513 18.6028C4.44146 18.3039 3.65072 17.4686 3.34852 16.3192C3.10817 14.8971 2.99151 13.4545 3.00001 12.0201C2.99337 10.586 3.11002 9.15428 3.36096 7.68106C3.617 6.58928 4.4114 5.71522 5.47098 5.3954C6.07212 5.22381 7.20811 5.12481 8.81607 5.06245L9.33167 5.04431C9.84837 5.02791 10.3658 5.01665 10.8604 5.00952L11.8125 5.00049L12.2861 5.00091ZM9.35168 9.60865V14.365C9.35168 15.1319 10.1794 15.6134 10.846 15.2343L15.0278 12.8561C15.702 12.4727 15.702 11.501 15.0278 11.1176L10.846 8.73939C10.1794 8.36027 9.35168 8.84174 9.35168 9.60865Z"
+          fill="currentColor" />
+      </g>
+    </symbol>
+    <symbol id="linkedin" viewBox="0 0 24 24">
+      <g>
+        <path fill-rule="evenodd" clip-rule="evenodd"
+          d="M15.7 8.8C18.351 8.8 20.5 10.949 20.5 13.6V19.2H17.3V13.6C17.3 12.7163 16.5837 12 15.7 12C14.8163 12 14.1 12.7163 14.1 13.6V19.2H10.9V13.6C10.9 10.949 13.049 8.8 15.7 8.8ZM7.7 9.6V19.2H4.5V9.6H7.7ZM6.1 5C6.98366 5 7.7 5.71634 7.7 6.6C7.7 7.48366 6.98366 8.2 6.1 8.2C5.21634 8.2 4.5 7.48366 4.5 6.6C4.5 5.71634 5.21634 5 6.1 5Z"
+          fill="currentColor" />
+      </g>
+    </symbol>
+    <symbol id="twitter" viewBox="0 0 24 24">
+      <g>
+        <path fill-rule="evenodd" clip-rule="evenodd"
+          d="M21 4.81797C20.2165 5.37063 19.349 5.79333 18.4309 6.06979C17.4216 4.90923 15.795 4.50224 14.3581 5.0507C12.9211 5.59916 11.9794 6.98639 12 8.52433V9.34251C9.07963 9.41824 6.31529 8.02685 4.63636 5.63615C4.63636 5.63615 1.36364 12.9998 8.72727 16.2725C7.04225 17.4163 5.03495 17.9898 3 17.9089C10.3636 21.9998 19.3636 17.9089 19.3636 8.49978C19.3629 8.27188 19.341 8.04454 19.2982 7.82069C20.1332 6.99719 20.7225 5.95746 21 4.81797Z"
+          fill="currentColor" />
+      </g>
+    </symbol>
+    <symbol id="facebook" viewBox="0 0 24 24">
+      <g>
+        <path fill-rule="evenodd" clip-rule="evenodd"
+          d="M16.5 4H14.0455C11.7861 4 9.95455 5.79086 9.95455 8V10.4H7.5V13.6H9.95455V20H13.2273V13.6H15.6818L16.5 10.4H13.2273V8C13.2273 7.55817 13.5936 7.2 14.0455 7.2H16.5V4Z"
+          fill="currentColor" />
+      </g>
+    </symbol>
+    <symbol id="youtube" viewBox="0 0 24 24">
+      <g>
+        <path fill-rule="evenodd" clip-rule="evenodd"
+          d="M12.2861 5.00091C13.234 5.00595 14.2969 5.02394 15.3049 5.06147C16.842 5.11869 17.9291 5.20774 18.5436 5.36864C19.5886 5.68417 20.383 6.55823 20.6515 7.71169C20.8918 9.13382 21.0085 10.5765 21 12.0121C21.0048 13.4354 20.8881 14.8562 20.639 16.3188C20.383 17.4106 19.5886 18.2847 18.529 18.6045C17.9432 18.7717 16.8526 18.8695 15.3084 18.9325L14.7562 18.9527C14.1963 18.971 13.6154 18.9836 13.0347 18.9915L12.5208 18.9972H11.4792L10.3853 18.982C9.80685 18.9709 9.23525 18.9547 8.69157 18.9325C7.14741 18.8695 6.05675 18.7717 5.46513 18.6028C4.44146 18.3039 3.65072 17.4686 3.34852 16.3192C3.10817 14.8971 2.99151 13.4545 3.00001 12.0201C2.99337 10.586 3.11002 9.15428 3.36096 7.68106C3.617 6.58928 4.4114 5.71522 5.47098 5.3954C6.07212 5.22381 7.20811 5.12481 8.81607 5.06245L9.33167 5.04431C9.84837 5.02791 10.3658 5.01665 10.8604 5.00952L11.8125 5.00049L12.2861 5.00091ZM9.35168 9.60865V14.365C9.35168 15.1319 10.1794 15.6134 10.846 15.2343L15.0278 12.8561C15.702 12.4727 15.702 11.501 15.0278 11.1176L10.846 8.73939C10.1794 8.36027 9.35168 8.84174 9.35168 9.60865Z"
+          fill="currentColor" />
+      </g>
+    </symbol>
+  </svg>
+  <!-- js
+    =========================================== -->
+  <script src="./js/jquery.js"></script>
+  <script src="./js/slick.min.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css" />
+  <title>Login</title>
+</head>
+
+<body>
+  <!-- header start
+    =========================================== -->
+  <header class="header" id="header">
+    <div class="auto__container">
+      <div class="header__inner">
+        <a href="#home" class="header__inner-logo links">
+          <img src="./images/logo.png" alt="" />
+        </a>
+        <nav class="nav" id="menu">
+          <ul class="nav__inner">
+            <li>
+              <a href="#features" class="links">
+                Features
+              </a>
+            </li>
+            <li>
+              <a href="#pricing" class="links">
+                Pricing
+              </a>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="tabBtn" data-tab="#tab-1">
+                More
+              </a>
+              <ul class="dropdown__menu tabEvent" id="tab-1">
+                <li>
+                  <a href="#">
+                    Partners
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    About Us
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Contact
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <div class="header__inner-buttons">
+              <a href="#" class="header__inner-link">
+                Login
+              </a>
+              <a href="#" class="button">
+                Sign Up
+              </a>
+            </div>
+          </ul>
+        </nav>
+        <div class="header__inner-buttons">
+          <a href="#" class="header__inner-link">
+            Login
+          </a>
+          <a href="#" class="button">
+            Sign Up
+          </a>
+          <div class="burger" id="menuBtn">
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- header end
+    =========================================== -->
+  <main class="main">
+    <div class="anchor" id="pricing"></div>
+    <div class="anchor" id="features"></div>
+    <!-- auth start
+    =========================================== -->
+    <section class="auth">
+      <div class="auto__container">
+        <div class="auth__inner">
+            <form class="authForm">
+                <h4>
+                    Log in
+                </h4>
+                <label class="input__outer">
+                    <h6>
+                        Email Address
+                    </h6>
+                    <div class="input">
+                        <input type="email" value="example@gmail.com">
+                    </div>
+                </label>
+                <label class="input__outer">
+                    <h6>
+                        Password
+                    </h6>
+                    <div class="input">
+                        <input type="password" value="12345678">
+                        <button type="button" id="passBtn">
+                            <img class="hide" src="./images/icons/hide.svg" alt="">
+                            <img class="show" src="./images/icons/show.svg" alt="">
+                        </button>
+                    </div>
+                </label>
+                <button type="submit" class="button">
+                    Log in
+                </button>
+                <p class="introSide__inner-foot">
+                    Don’t have account yet? <a href="signUp.html">New Account</a>
+                </p>
+            </form>
+        </div>
+      </div>
+    </section>
+    <!-- auth end
+    =========================================== -->
+    <!-- footer start
+    =========================================== -->
+    <footer class="footer">
+      <div class="auto__container">
+        <div class="footer__inner">
+          <p>
+            © 2023 ExpressVPN. All rights reserved.
+          </p>
+          <div class="footer__inner-social">
+            <a href="#">
+              <svg>
+                <use xlink:href="#youtube"></use>
+              </svg>
+            </a>
+            <a href="#">
+              <svg>
+                <use xlink:href="#linkedin"></use>
+              </svg>
+            </a>
+            <a href="#">
+              <svg>
+                <use xlink:href="#twitter"></use>
+              </svg>
+            </a>
+            <a href="#">
+              <svg>
+                <use xlink:href="#facebook"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end
+    =========================================== -->
+  </main>
+  <!-- Sprites
+    =========================================== -->
+  <svg style="display: none">
+    <symbol id="youtube" viewBox="0 0 24 24">
+      <g>
+        <path fill-rule="evenodd" clip-rule="evenodd"
+          d="M12.2861 5.00091C13.234 5.00595 14.2969 5.02394 15.3049 5.06147C16.842 5.11869 17.9291 5.20774 18.5436 5.36864C19.5886 5.68417 20.383 6.55823 20.6515 7.71169C20.8918 9.13382 21.0085 10.5765 21 12.0121C21.0048 13.4354 20.8881 14.8562 20.639 16.3188C20.383 17.4106 19.5886 18.2847 18.529 18.6045C17.9432 18.7717 16.8526 18.8695 15.3084 18.9325L14.7562 18.9527C14.1963 18.971 13.6154 18.9836 13.0347 18.9915L12.5208 18.9972H11.4792L10.3853 18.982C9.80685 18.9709 9.23525 18.9547 8.69157 18.9325C7.14741 18.8695 6.05675 18.7717 5.46513 18.6028C4.44146 18.3039 3.65072 17.4686 3.34852 16.3192C3.10817 14.8971 2.99151 13.4545 3.00001 12.0201C2.99337 10.586 3.11002 9.15428 3.36096 7.68106C3.617 6.58928 4.4114 5.71522 5.47098 5.3954C6.07212 5.22381 7.20811 5.12481 8.81607 5.06245L9.33167 5.04431C9.84837 5.02791 10.3658 5.01665 10.8604 5.00952L11.8125 5.00049L12.2861 5.00091ZM9.35168 9.60865V14.365C9.35168 15.1319 10.1794 15.6134 10.846 15.2343L15.0278 12.8561C15.702 12.4727 15.702 11.501 15.0278 11.1176L10.846 8.73939C10.1794 8.36027 9.35168 8.84174 9.35168 9.60865Z"
+          fill="currentColor" />
+      </g>
+    </symbol>
+    <symbol id="linkedin" viewBox="0 0 24 24">
+      <g>
+        <path fill-rule="evenodd" clip-rule="evenodd"
+          d="M15.7 8.8C18.351 8.8 20.5 10.949 20.5 13.6V19.2H17.3V13.6C17.3 12.7163 16.5837 12 15.7 12C14.8163 12 14.1 12.7163 14.1 13.6V19.2H10.9V13.6C10.9 10.949 13.049 8.8 15.7 8.8ZM7.7 9.6V19.2H4.5V9.6H7.7ZM6.1 5C6.98366 5 7.7 5.71634 7.7 6.6C7.7 7.48366 6.98366 8.2 6.1 8.2C5.21634 8.2 4.5 7.48366 4.5 6.6C4.5 5.71634 5.21634 5 6.1 5Z"
+          fill="currentColor" />
+      </g>
+    </symbol>
+    <symbol id="twitter" viewBox="0 0 24 24">
+      <g>
+        <path fill-rule="evenodd" clip-rule="evenodd"
+          d="M21 4.81797C20.2165 5.37063 19.349 5.79333 18.4309 6.06979C17.4216 4.90923 15.795 4.50224 14.3581 5.0507C12.9211 5.59916 11.9794 6.98639 12 8.52433V9.34251C9.07963 9.41824 6.31529 8.02685 4.63636 5.63615C4.63636 5.63615 1.36364 12.9998 8.72727 16.2725C7.04225 17.4163 5.03495 17.9898 3 17.9089C10.3636 21.9998 19.3636 17.9089 19.3636 8.49978C19.3629 8.27188 19.341 8.04454 19.2982 7.82069C20.1332 6.99719 20.7225 5.95746 21 4.81797Z"
+          fill="currentColor" />
+      </g>
+    </symbol>
+    <symbol id="facebook" viewBox="0 0 24 24">
+      <g>
+        <path fill-rule="evenodd" clip-rule="evenodd"
+          d="M16.5 4H14.0455C11.7861 4 9.95455 5.79086 9.95455 8V10.4H7.5V13.6H9.95455V20H13.2273V13.6H15.6818L16.5 10.4H13.2273V8C13.2273 7.55817 13.5936 7.2 14.0455 7.2H16.5V4Z"
+          fill="currentColor" />
+      </g>
+    </symbol>
+    <symbol id="youtube" viewBox="0 0 24 24">
+      <g>
+        <path fill-rule="evenodd" clip-rule="evenodd"
+          d="M12.2861 5.00091C13.234 5.00595 14.2969 5.02394 15.3049 5.06147C16.842 5.11869 17.9291 5.20774 18.5436 5.36864C19.5886 5.68417 20.383 6.55823 20.6515 7.71169C20.8918 9.13382 21.0085 10.5765 21 12.0121C21.0048 13.4354 20.8881 14.8562 20.639 16.3188C20.383 17.4106 19.5886 18.2847 18.529 18.6045C17.9432 18.7717 16.8526 18.8695 15.3084 18.9325L14.7562 18.9527C14.1963 18.971 13.6154 18.9836 13.0347 18.9915L12.5208 18.9972H11.4792L10.3853 18.982C9.80685 18.9709 9.23525 18.9547 8.69157 18.9325C7.14741 18.8695 6.05675 18.7717 5.46513 18.6028C4.44146 18.3039 3.65072 17.4686 3.34852 16.3192C3.10817 14.8971 2.99151 13.4545 3.00001 12.0201C2.99337 10.586 3.11002 9.15428 3.36096 7.68106C3.617 6.58928 4.4114 5.71522 5.47098 5.3954C6.07212 5.22381 7.20811 5.12481 8.81607 5.06245L9.33167 5.04431C9.84837 5.02791 10.3658 5.01665 10.8604 5.00952L11.8125 5.00049L12.2861 5.00091ZM9.35168 9.60865V14.365C9.35168 15.1319 10.1794 15.6134 10.846 15.2343L15.0278 12.8561C15.702 12.4727 15.702 11.501 15.0278 11.1176L10.846 8.73939C10.1794 8.36027 9.35168 8.84174 9.35168 9.60865Z"
+          fill="currentColor" />
+      </g>
+    </symbol>
+  </svg>
+  <!-- js
+    =========================================== -->
+  <script src="./js/jquery.js"></script>
+  <script src="./js/slick.min.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>

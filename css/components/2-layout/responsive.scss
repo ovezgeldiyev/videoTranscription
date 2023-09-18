@@ -1,0 +1,173 @@
+// 1380px
+@include xxxlg-xxxxlg {
+  // @include intro-xxxlg-xxxxlg;
+}
+// 1180px
+@include xlg-xxlg {
+  .auto__container {
+    padding: 0 30px;
+  }
+  h1 {
+    font-size: 45px;
+  }
+  h2 {
+    font-size: 38px;
+    &.sm {
+      font-size: 34px;
+    }
+  }
+  @include partners-xlg-xxlg;
+}
+// 1024px
+@include lg-xlg {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 32px;
+    &.sm {
+      font-size: 28px;
+    }
+  }
+  h3 {
+    font-size: 27px;
+    line-height: 35px;
+  }
+  body {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  p {
+    &.big {
+      font-size: 18px;
+    }
+    &.sm {
+      font-size: 13px;
+    }
+  }
+  .button {
+    font-size: 14px;
+    line-height: 20px;
+    &.primary {
+      padding: 10px 24px;
+    }
+    span {
+      width: 20px;
+      height: 20px;
+      margin-left: 20px;
+    }
+  }
+  .main {
+    padding-top: 86.55px;
+  }
+
+  .auth {
+    &__inner {
+      min-height: calc(100vh - 186.55px);
+    }
+  }
+  @include header-lg-xlg;
+  @include nav-lg-xlg;
+  @include upload-lg-xlg;
+  @include feature-lg-xlg;
+  @include pricing-lg-xlg;
+}
+// 930px
+@include md-lg {
+  h1 {
+    font-size: 33px;
+  }
+  h2 {
+    font-size: 28px;
+    &.sm {
+      font-size: 24px;
+    }
+  }
+  h3 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  h4 {
+    font-size: 17px;
+    line-height: 23px;
+  }
+  .auth {
+    &__inner {
+      min-height: calc(100vh - 174.55px);
+      padding: 80px 0;
+    }
+  }
+  @include intro-md-lg;
+  @include feature-md-lg;
+  @include steps-md-lg;
+  @include partners-md-lg;
+  @include support-md-lg;
+  @include pricing-md-lg;
+  @include footer-md-lg;
+}
+// 750px
+@include sm-md {
+  .auto__container {
+    padding: 0 20px;
+  }
+  @include intro-sm-md;
+  @include upload-sm-md;
+  @include feature-sm-md;
+  @include steps-sm-md;
+  @include support-sm-md;
+  @include pricing-sm-md;
+}
+// 540px
+@include xsm-sm {
+  h1 {
+    font-size: 26px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  p {
+    &.big {
+      font-size: 16px;
+      line-height: 22px;
+    }
+  }
+  .main {
+    padding-top: 72.97px;
+  }
+  .auth {
+    &__inner {
+      min-height: calc(100vh - 173.36px);
+      padding: 60px 0;
+    }
+    &Form {
+      padding: 20px;
+      h4 {
+        margin-bottom: 16px;
+      }
+      .input__outer {
+        margin-bottom: 15px;
+      }
+    }
+  }
+  @include header-xsm-sm;
+  @include nav-xsm-sm;
+  @include upload-xsm-sm;
+  @include partners-xsm-sm;
+  @include pricing-xsm-sm;
+  @include footer-xsm-sm;
+}
+// 440px
+@include xxsm-xsm {
+  // @include intro-xxsm-xsm;
+}
+// 390px
+@include xxxsm-xxsm {
+  // @include intro-xxxsm-xxsm;
+}
